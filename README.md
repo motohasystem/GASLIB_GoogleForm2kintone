@@ -28,7 +28,7 @@ kintoneアプリ側では、以下２つのフィールドコードを一行文�
 - APIトークンを作成してください
     - レコード追加権限が必要です。
     - トークンをメモしておいてください
-        - tkFt5afEEoKR1qR1jG9fuF0johwEdzDzF3rxfNAJ
+        - tkFt5afEEoKR1qR1jG9fxxxxxxxxxxxxxxxxxxxx
 
 - 追加機能
     - ライブラリ側でフィールドコードの予約をしています。
@@ -83,7 +83,7 @@ function onSubmitForm(e) {
 ## 4. プロジェクトにライブラリを追加
 _ 「ライブラリ＋」をクリック
     - ライブラリの追加ダイアログが開くので、下記の通り入力する
-        - スクリプトID
+        - スクリプトID（こちらで公開しているスクリプトIDです。このままお使いいただけます）
             - 16Z6ic1VtUjHZZpNnNDGtqqD9kq1001Pdr-Qwb7oxT5Ai1niHHOGqUoIb
         - 検索ボタンを押す
             - 「ライブラリ Form2kintoneImporterLib を検索しました。」と表示される
@@ -92,6 +92,7 @@ _ 「ライブラリ＋」をクリック
         - ID
             - Form2kintoneImporterLib
     - 「追加」ボタンをクリック
+- 公開ライブラリを使いたくない場合はこのリポジトリに同梱の [GoogleForm2kintoneBracketLib.js](./src/GoogleForm2kintoneBracketLib.js) をお使いください。
 
 ## 5. プロジェクトのトリガーを設定する
 - トリガー設定の追加を開く
@@ -109,7 +110,6 @@ _ 「ライブラリ＋」をクリック
 - 「▷実行」をクリック
 - 承認ダイアログが開く
     - 権限を確認をクリック
-        - ![](img/2023-05-25-13-39-32.png)
     - Googleアカウントへのアクセスをリクエストしています
     - 「許可」
 - 保存
