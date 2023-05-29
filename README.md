@@ -81,17 +81,20 @@ function onSubmitForm(e) {
 ```
 
 ## 4. プロジェクトにライブラリを追加
-_ 「ライブラリ＋」をクリック
-    - ライブラリの追加ダイアログが開くので、下記の通り入力する
-        - スクリプトID（こちらで公開しているスクリプトIDです。このままお使いいただけます）
-            - 16Z6ic1VtUjHZZpNnNDGtqqD9kq1001Pdr-Qwb7oxT5Ai1niHHOGqUoIb
-        - 検索ボタンを押す
-            - 「ライブラリ Form2kintoneImporterLib を検索しました。」と表示される
-        - バージョン
-            - 2を選択
-        - ID
-            - Form2kintoneImporterLib
+
+- 「ライブラリ＋」をクリック
+- ライブラリの追加ダイアログが開くので、以下の通り入力する
+    - スクリプトID（こちらで公開しているスクリプトIDです。このままお使いいただけます）
+        - 16Z6ic1VtUjHZZpNnNDGtqqD9kq1001Pdr-Qwb7oxT5Ai1niHHOGqUoIb
+        - [コードの中身はこちらから]()
+    - 検索ボタンを押す
+        - 「ライブラリ Form2kintoneImporterLib を検索しました。」と表示される
+    - バージョン
+        - 2を選択
+    - ID
+        - Form2kintoneImporterLib
     - 「追加」ボタンをクリック
+
 - 公開ライブラリを使いたくない場合はこのリポジトリに同梱の [GoogleForm2kintoneBracketLib.js](./src/GoogleForm2kintoneBracketLib.js) をお使いください。
 
 ## 5. プロジェクトのトリガーを設定する
