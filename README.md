@@ -90,7 +90,7 @@ function onSubmitForm(e) {
     - 検索ボタンを押す
         - 「ライブラリ Form2kintoneImporterLib を検索しました。」と表示される
     - バージョン
-        - 2を選択
+        - 3を選択
     - ID
         - Form2kintoneImporterLib
     - 「追加」ボタンをクリック
