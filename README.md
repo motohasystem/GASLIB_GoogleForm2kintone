@@ -1,4 +1,4 @@
-# GoogleForm2kintoneBracketLib
+# GASLIB_GoogleForm2kintone
 
 Googleフォームとkintoneを連携させる際に、フォーム設問中の[ブラケット]をフィールドコードとして扱うライブラリです。
 
